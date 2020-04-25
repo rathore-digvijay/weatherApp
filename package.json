@@ -1,0 +1,23 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "app shows weather data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digvijay-r/weatherApp.git"
+  },
+  "keywords": [
+    "weatherApp",
+    "expressApp"
+  ],
+  "author": "Digvijay Rathore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digvijay-r/weatherApp/issues"
+  },
+  "homepage": "https://github.com/digvijay-r/weatherApp#readme"
+}

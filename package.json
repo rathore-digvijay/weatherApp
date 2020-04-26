@@ -4,6 +4,8 @@
   "description": "app shows weather data",
   "main": "index.js",
   "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/digvijay-r/weatherApp/issues"
   },
-  "homepage": "https://github.com/digvijay-r/weatherApp#readme"
+  "homepage": "https://github.com/digvijay-r/weatherApp#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.0"
+  }
 }
